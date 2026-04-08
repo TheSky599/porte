@@ -5,6 +5,11 @@ Class {
 	#package : 'Antoine'
 }
 
+{ #category : 'visiting' }
+PorteBureau >> accept: unVisiteur [
+	^unVisiteur visitPorteBureau: self
+]
+
 { #category : 'as yet unclassified' }
 PorteBureau >> tenterOuverture: unUtilisateur [
     ^ unUtilisateur peutOuvrirBureau: self
