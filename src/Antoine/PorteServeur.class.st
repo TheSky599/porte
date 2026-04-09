@@ -11,6 +11,11 @@ PorteServeur >> accept: unVisiteur [
 ]
 
 { #category : 'as yet unclassified' }
+PorteServeur >> prix [ 
+	^500
+]
+
+{ #category : 'as yet unclassified' }
 PorteServeur >> tenterOuverture: unUtilisateur [
     ^ unUtilisateur peutOuvrirServeur: self
 ]

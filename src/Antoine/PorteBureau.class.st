@@ -11,6 +11,11 @@ PorteBureau >> accept: unVisiteur [
 ]
 
 { #category : 'as yet unclassified' }
+PorteBureau >> prix [ 
+	^100
+]
+
+{ #category : 'as yet unclassified' }
 PorteBureau >> tenterOuverture: unUtilisateur [
     ^ unUtilisateur peutOuvrirBureau: self
 ]

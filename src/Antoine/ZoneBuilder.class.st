@@ -29,12 +29,6 @@ ZoneBuilder >> initialize [
     zoneCourante := Zone new.
 ]
 
-{ #category : 'as yet unclassified' }
-ZoneBuilder >> intialize [
-	super initialize.
-	zoneCourante := Zone new.
-]
-
 { #category : 'accessing' }
 ZoneBuilder >> nom: unTexte [
 	zoneCourante nom: unTexte.
